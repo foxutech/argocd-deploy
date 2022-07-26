@@ -1,3 +1,4 @@
+
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -43,3 +44,8 @@ data:
     p, role:argocd-yesterday, applications, sync, self-service/argocd-yesterday, allow
     p, role:argocd-yesterday, applications, delete, self-service/argocd-yesterday, allow
     g, yesterday, role:argocd-yesterday
+
+    p, role:argocd-monday, applications, get, self-service/argocd-monday, allow
+    p, role:argocd-monday, applications, sync, self-service/argocd-monday, allow
+    p, role:argocd-monday, applications, delete, self-service/argocd-monday, allow
+    g, monday, role:argocd-monday
