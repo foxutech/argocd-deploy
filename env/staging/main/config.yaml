@@ -3,6 +3,7 @@
 
 
 
+
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -36,3 +37,7 @@ data:
      p, role:cluster-murugan, applications, sync, self-service/cluster-murugan, allow
      p, role:cluster-murugan, applications, delete, self-service/cluster-murugan, allow
      g, murugan, role:cluster-murugan
+     p, role:argocd-today, applications, get, self-service/argocd-today, allow
+     p, role:argocd-today, applications, sync, self-service/argocd-today, allow
+     p, role:argocd-today, applications, delete, self-service/argocd-today, allow
+     g, today, role:argocd-today
