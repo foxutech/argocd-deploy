@@ -51,3 +51,7 @@ data:
     p, role:argocd-july, applications, sync, self-service/argocd-july, allow
     p, role:argocd-july, applications, delete, self-service/argocd-july, allow
     g, july, role:argocd-july
+    p, role:argocd-june, applications, get, self-service/argocd-june, allow
+    p, role:argocd-june, applications, sync, self-service/argocd-june, allow
+    p, role:argocd-june, applications, delete, self-service/argocd-june, allow
+    g, june, role:argocd-june
