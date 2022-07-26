@@ -1,20 +1,13 @@
-
-
-
-
-     p, role:cluster-prabhakar, applications, get, self-service/cluster-prabhakar, allow
-     p, role:cluster-prabhakar, applications, sync, self-service/cluster-prabhakar, allow
-     p, role:cluster-prabhakar, applications, delete, self-service/cluster-prabhakar, allow
-     g, prabhakar, role:cluster-prabhakar
-     p, role:cluster-prabhakar, applications, get, self-service/cluster-prabhakar, allow
-     p, role:cluster-prabhakar, applications, sync, self-service/cluster-prabhakar, allow
-     p, role:cluster-prabhakar, applications, delete, self-service/cluster-prabhakar, allow
-     g, prabhakar, role:cluster-prabhakar
-     p, role:cluster-prabhakar, applications, get, self-service/cluster-prabhakar, allow
-     p, role:cluster-prabhakar, applications, sync, self-service/cluster-prabhakar, allow
-     p, role:cluster-prabhakar, applications, delete, self-service/cluster-prabhakar, allow
-     g, prabhakar, role:cluster-prabhakar
-     p, role:cluster-prabhakar, applications, get, self-service/cluster-prabhakar, allow
-     p, role:cluster-prabhakar, applications, sync, self-service/cluster-prabhakar, allow
-     p, role:cluster-prabhakar, applications, delete, self-service/cluster-prabhakar, allow
-     g, prabhakar, role:cluster-prabhakar
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: argocd-rbac-cm
+  labels:
+    app.kubernetes.io/name: argocd-rbac-cm
+    app.kubernetes.io/part-of: argocd
+data:
+  policy.csv: |
+    p, role:nginx, applications, sync, default/nginx, allow
+    p, role:nginx, applications, get, default/nginx, allow
+    p, role:nginx, applications, delete, default/nginx, allow
+    g, motoskia, role:nginx
