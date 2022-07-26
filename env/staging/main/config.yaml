@@ -1,13 +1,5 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: argocd-rbac-cm
-  labels:
-    app.kubernetes.io/name: argocd-rbac-cm
-    app.kubernetes.io/part-of: argocd
-data:
-  policy.csv: |
-    p, role:nodejs, applications, sync, default/nodejs, allow
-    p, role:nodejs, applications, get, default/nodejs, allow
-    p, role:nodejs, applications, delete, default/nodejs, allow
-    g, motoskia, role:nodejs
+
+     p, role:cluster-prabhakar, applications, get, self-service/cluster-prabhakar, allow
+     p, role:cluster-prabhakar, applications, sync, self-service/cluster-prabhakar, allow
+     p, role:cluster-prabhakar, applications, delete, self-service/cluster-prabhakar, allow
+     g, prabhakar, role:cluster-prabhakar
