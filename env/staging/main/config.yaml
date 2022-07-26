@@ -1,4 +1,9 @@
 
+
+     p, role:cluster-prabhakar, applications, get, self-service/cluster-prabhakar, allow
+     p, role:cluster-prabhakar, applications, sync, self-service/cluster-prabhakar, allow
+     p, role:cluster-prabhakar, applications, delete, self-service/cluster-prabhakar, allow
+     g, prabhakar, role:cluster-prabhakar
      p, role:cluster-prabhakar, applications, get, self-service/cluster-prabhakar, allow
      p, role:cluster-prabhakar, applications, sync, self-service/cluster-prabhakar, allow
      p, role:cluster-prabhakar, applications, delete, self-service/cluster-prabhakar, allow
