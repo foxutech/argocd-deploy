@@ -2,6 +2,7 @@
 
 
 
+
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -27,6 +28,10 @@ data:
      p, role:cluster-prabhakar, applications, sync, self-service/cluster-prabhakar, allow
      p, role:cluster-prabhakar, applications, delete, self-service/cluster-prabhakar, allow
      g, prabhakar, role:cluster-prabhakar
+     p, role:cluster-murugan, applications, get, self-service/cluster-murugan, allow
+     p, role:cluster-murugan, applications, sync, self-service/cluster-murugan, allow
+     p, role:cluster-murugan, applications, delete, self-service/cluster-murugan, allow
+     g, murugan, role:cluster-murugan
      p, role:cluster-murugan, applications, get, self-service/cluster-murugan, allow
      p, role:cluster-murugan, applications, sync, self-service/cluster-murugan, allow
      p, role:cluster-murugan, applications, delete, self-service/cluster-murugan, allow
