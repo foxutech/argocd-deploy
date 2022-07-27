@@ -23,3 +23,7 @@ data:
     p, role:argocd-june, applications, sync, self-service/argocd-june, allow
     p, role:argocd-june, applications, delete, self-service/argocd-june, allow
     g, june, role:argocd-june
+    p, role:argocd-prabhakar, applications, get, self-service/argocd-prabhakar, allow
+    p, role:argocd-prabhakar, applications, sync, self-service/argocd-prabhakar, allow
+    p, role:argocd-prabhakar, applications, delete, self-service/argocd-prabhakar, allow
+    g, prabhakar, role:argocd-prabhakar
