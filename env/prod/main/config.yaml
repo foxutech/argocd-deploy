@@ -21,3 +21,7 @@ data:
     p, role:argocd-diya, applications, sync, self-service/argocd-diya, allow
     p, role:argocd-diya, applications, delete, self-service/argocd-diya, allow
     g, diya, role:argocd-diya
+    p, role:argocd-diya, applications, get, self-service/argocd-diya, allow
+    p, role:argocd-diya, applications, sync, self-service/argocd-diya, allow
+    p, role:argocd-diya, applications, delete, self-service/argocd-diya, allow
+    g, diya, role:argocd-diya
