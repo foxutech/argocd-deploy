@@ -11,19 +11,3 @@ data:
     p, role:nginx, applications, get, default/nginx, allow
     p, role:nginx, applications, delete, default/nginx, allow
     g, motoskia, role:nginx
-    p, role:argocd-august, applications, get, self-service/argocd-august, allow
-    p, role:argocd-august, applications, sync, self-service/argocd-august, allow
-    p, role:argocd-august, applications, delete, self-service/argocd-august, allow
-    g, august, role:argocd-august
-    p, role:argocd-july, applications, get, self-service/argocd-july, allow
-    p, role:argocd-july, applications, sync, self-service/argocd-july, allow
-    p, role:argocd-july, applications, delete, self-service/argocd-july, allow
-    g, july, role:argocd-july
-    p, role:argocd-june, applications, get, self-service/argocd-june, allow
-    p, role:argocd-june, applications, sync, self-service/argocd-june, allow
-    p, role:argocd-june, applications, delete, self-service/argocd-june, allow
-    g, june, role:argocd-june
-    p, role:argocd-prabhakar, applications, get, self-service/argocd-prabhakar, allow
-    p, role:argocd-prabhakar, applications, sync, self-service/argocd-prabhakar, allow
-    p, role:argocd-prabhakar, applications, delete, self-service/argocd-prabhakar, allow
-    g, prabhakar, role:argocd-prabhakar
