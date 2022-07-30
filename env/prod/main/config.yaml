@@ -11,3 +11,9 @@ data:
     p, role:nginx, applications, get, default/nginx, allow
     p, role:nginx, applications, delete, default/nginx, allow
     g, motoskia, role:nginx
+    p, role:argocd-june, applications, get, self-service/argocd-june, allow
+    p, role:argocd-june, applications, sync, self-service/argocd-june, allow
+    p, role:argocd-june, applications, delete, self-service/argocd-june, allow
+    g, june, role:argocd-june
+    g,  /prabu, role:argocd-june
+    g,  /motoskia, role:argocd-june
