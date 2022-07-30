@@ -27,3 +27,7 @@ data:
     p, role:argocd-prabhakar, applications, sync, self-service/argocd-prabhakar, allow
     p, role:argocd-prabhakar, applications, delete, self-service/argocd-prabhakar, allow
     g, prabhakar, role:argocd-prabhakar
+    p, role:argocd-july, applications, get, self-service/argocd-july, allow
+    p, role:argocd-july, applications, sync, self-service/argocd-july, allow
+    p, role:argocd-july, applications, delete, self-service/argocd-july, allow
+    g, july, role:argocd-july    g,  /august, role:argocd-july    g,  /feb, role:argocd-july
