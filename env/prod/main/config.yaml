@@ -19,3 +19,9 @@ data:
     p, role:argocd-diya, applications, sync, self-service/argocd-diya, allow
     p, role:argocd-diya, applications, delete, self-service/argocd-diya, allow
     g, diya, role:argocd-diya
+    p, role:argocd-june, applications, get, self-service/argocd-june, allow
+    p, role:argocd-june, applications, sync, self-service/argocd-june, allow
+    p, role:argocd-june, applications, delete, self-service/argocd-june, allow
+    g, june, role:argocd-june
+    g,  /prabu, role:argocd-june
+    g,  /motoskia, role:argocd-june
