@@ -11,3 +11,7 @@ data:
     p, role:nginx, applications, get, default/nginx, allow
     p, role:nginx, applications, delete, default/nginx, allow
     g, motoskia, role:nginx
+    p, role:argocd-diya, applications, get, self-service/argocd-diya, allow
+    p, role:argocd-diya, applications, sync, self-service/argocd-diya, allow
+    p, role:argocd-diya, applications, delete, self-service/argocd-diya, allow
+    g, diya, role:argocd-diya
