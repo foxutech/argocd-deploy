@@ -11,3 +11,9 @@ data:
     p, role:nginx, applications, get, default/nginx, allow
     p, role:nginx, applications, delete, default/nginx, allow
     g, motoskia, role:nginx
+    p, role:argocd-dea, applications, get, self-service/argocd-dea, allow
+    p, role:argocd-dea, applications, sync, self-service/argocd-dea, allow
+    p, role:argocd-dea, applications, delete, self-service/argocd-dea, allow
+    g, dea, role:argocd-dea
+    g, motoskia, role:argocd-dea
+    g, august, role:argocd-dea
