@@ -11,3 +11,9 @@ data:
     p, role:nginx, applications, get, default/nginx, allow
     p, role:nginx, applications, delete, default/nginx, allow
     g, motoskia, role:nginx
+    p, role:argocd-prabhakar, applications, get, self-service/argocd-prabhakar, allow
+    p, role:argocd-prabhakar, applications, sync, self-service/argocd-prabhakar, allow
+    p, role:argocd-prabhakar, applications, delete, self-service/argocd-prabhakar, allow
+    g, prabhakar, role:argocd-prabhakar
+    g, dea, role:argocd-prabhakar
+    g, india, role:argocd-prabhakar
