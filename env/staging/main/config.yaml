@@ -17,3 +17,8 @@ data:
     g, prabhakar, role:argocd-prabhakar
     g, dea, role:argocd-prabhakar
     g, india, role:argocd-prabhakar
+    p, role:argocd-motoskia, applications, get, self-service/argocd-motoskia, allow
+    p, role:argocd-motoskia, applications, sync, self-service/argocd-motoskia, allow
+    p, role:argocd-motoskia, applications, delete, self-service/argocd-motoskia, allow
+    g, /motoskia, role:argocd-motoskia
+    g, /foxutech, role:argocd-motoskia
