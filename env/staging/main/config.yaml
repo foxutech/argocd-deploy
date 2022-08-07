@@ -11,20 +11,3 @@ data:
     p, role:nginx, applications, get, default/nginx, allow
     p, role:nginx, applications, delete, default/nginx, allow
     g, motoskia, role:nginx
-    p, role:argocd-prabhakar, applications, get, self-service/argocd-prabhakar, allow
-    p, role:argocd-prabhakar, applications, sync, self-service/argocd-prabhakar, allow
-    p, role:argocd-prabhakar, applications, delete, self-service/argocd-prabhakar, allow
-    g, prabhakar, role:argocd-prabhakar
-    g, dea, role:argocd-prabhakar
-    g, india, role:argocd-prabhakar
-    p, role:argocd-motoskia, applications, get, self-service/argocd-motoskia, allow
-    p, role:argocd-motoskia, applications, sync, self-service/argocd-motoskia, allow
-    p, role:argocd-motoskia, applications, delete, self-service/argocd-motoskia, allow
-    g, /motoskia, role:argocd-motoskia
-    g, /foxutech, role:argocd-motoskia
-    p, role:argocd-motoskia, applications, get, self-service/argocd-motoskia, allow
-    p, role:argocd-motoskia, applications, sync, self-service/argocd-motoskia, allow
-    p, role:argocd-motoskia, applications, delete, self-service/argocd-motoskia, allow
-    g, motoskia, role:argocd-motoskia
-    g, foxutech, role:argocd-motoskia
-    g, prabhakar, role:argocd-motoskia
