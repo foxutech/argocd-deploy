@@ -21,3 +21,8 @@ data:
     p, role:argocd-motoskia-stg, applications, sync, self-service/argocd-motoskia-stg, allow
     p, role:argocd-motoskia-stg, applications, delete, self-service/argocd-motoskia-stg, allow
     g, foxutech, role:argocd-motoskia-stg
+    p, role:argocd-prabhakar-stg, applications, get, self-service/argocd-prabhakar-stg, allow
+    p, role:argocd-prabhakar-stg, applications, sync, self-service/argocd-prabhakar-stg, allow
+    p, role:argocd-prabhakar-stg, applications, delete, self-service/argocd-prabhakar-stg, allow
+    g, foxutech, role:argocd-prabhakar-stg
+    g, motoskia, role:argocd-prabhakar-stg
