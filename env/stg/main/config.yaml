@@ -17,3 +17,7 @@ data:
     g, foxutech, role:argocd-august-stg
     g, motoskia, role:argocd-august-stg
     g, devops, role:argocd-august-stg
+    p, role:argocd-motoskia-stg, applications, get, self-service/argocd-motoskia-stg, allow
+    p, role:argocd-motoskia-stg, applications, sync, self-service/argocd-motoskia-stg, allow
+    p, role:argocd-motoskia-stg, applications, delete, self-service/argocd-motoskia-stg, allow
+    g, foxutech, role:argocd-motoskia-stg
