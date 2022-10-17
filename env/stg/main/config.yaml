@@ -46,3 +46,8 @@ data:
     p, role:argocd-dea-stg, applications, delete, self-service/argocd-dea-stg, allow
     g, /foxutech, role:argocd-dea-stg
     g, /motoskia, role:argocd-dea-stg
+    p, role:argocd-prabhakar-stg, applications, get, self-service/argocd-prabhakar-stg, allow
+    p, role:argocd-prabhakar-stg, applications, sync, self-service/argocd-prabhakar-stg, allow
+    p, role:argocd-prabhakar-stg, applications, delete, self-service/argocd-prabhakar-stg, allow
+    g, /foxutech, role:argocd-prabhakar-stg
+    g, /motoskia, role:argocd-prabhakar-stg
